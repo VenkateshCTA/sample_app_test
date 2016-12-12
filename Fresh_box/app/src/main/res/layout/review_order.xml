@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e23e9e14"
+        android:id="@+id/toolbar"
+        android:title="Review Orders Details"
+        />
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="org name"
+        android:textSize="20dp"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="product name"
+        android:textSize="20dp"
+android:layout_marginTop="70dp"
+       android:layout_marginLeft="100dp"/>
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number Of Product"
+        android:textSize="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="240dp"/>
+
+
+    <TextView
+        android:id="@+id/org_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/pr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20dp"
+
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:id="@+id/qyt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="240dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/pl_o"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Order Now"
+        android:background="#e23e9e14"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="390dp"/>
+
+
+</RelativeLayout>
+
+
+
+
+
+

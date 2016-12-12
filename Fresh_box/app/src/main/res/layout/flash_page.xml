@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e23e9e14">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Fresh Box"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:shadowColor="#ff9e9e9e"
+            android:shadowDx="1"
+            android:textStyle="italic"
+            android:textAllCaps="true"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:textSize="50dp"
+            android:layout_marginTop="170dp"
+            android:id="@+id/textview_tit"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Buy it..Cook it..Eat it.."
+            android:layout_below="@+id/textview_tit"
+            android:gravity="center"
+            android:textColor="#890404"
+            android:shadowColor="#ff9e9e9e"
+            android:shadowDx="1"
+            android:textStyle="bold"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:id="@+id/txt_beta"
+            android:textSize="18dp" />
+
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:clickable="false"
+            android:layout_marginTop="40dp"
+          />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+

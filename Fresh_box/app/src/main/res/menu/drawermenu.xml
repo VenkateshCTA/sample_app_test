@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!---->
+
+    <item android:title="Edit Profile"
+        android:id="@+id/nav_item_profi"
+
+       />
+
+    <item android:title="Vegetable"
+          android:id="@+id/nav_item_veg"
+          />
+
+
+
+    <item
+        android:title="Fruits"
+        android:id="@+id/nav_item_frt"
+       />
+
+    <item
+        android:title="Leafy"
+        android:id="@+id/nav_item_levfy"
+        />
+
+    <item
+        android:title="Exostics Products"
+        android:id="@+id/nav_item_exost"
+        />
+    <item
+        android:title="Privious Order"
+        android:id="@+id/nav_item_order"
+       />
+
+
+
+    <item
+        android:title="Logout"
+        android:id="@+id/nav_item_logt"
+       />
+
+
+
+
+    <item android:title="Contact Us"
+        android:id="@+id/nav_item_call"
+       />
+
+</menu>

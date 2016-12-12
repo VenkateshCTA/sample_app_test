@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Fresh_box</string>
+    <string name="products">products</string>
+<string name="veg">veg</string>
+    <string name="hello">Hello World, MainActivity!</string>
+
+
+
+
+
+    <string-array name="veg">
+        <item>Tomato</item>
+        <item>Potato</item>
+        <item>Lady Finger</item>
+        <item>Onion</item>
+        <item>Lemon</item>
+        <item>Mirchi Chilly</item>
+        <item>Copsicun</item>
+        <item>Green Peas</item>
+    </string-array>
+
+
+    <string-array name="frt">
+        <item>Apple</item>
+        <item>Orange</item>
+        <item>Yallakki Banana</item>
+        <item>Banana</item>
+        <item>Chikku</item>
+        <item>Water Melon</item>
+        <item>Sweet Lemon</item>
+        <item>Plum</item>
+    </string-array>
+
+
+    <string-array name="leafy">
+        <item>Polole</item>
+        <item>Methi</item>
+        <item>Rojorgeri</item>
+        <item>Sobasgi</item>
+        <item>Spring Onion</item>
+        <item>Mint Leaver</item>
+            </string-array>
+
+</resources>
